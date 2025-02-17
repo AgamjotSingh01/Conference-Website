@@ -1,0 +1,16 @@
+.ribbon{
+    width: 100vw;
+    text-align: center;
+    background-color: #CF0015;
+    color: white;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 3px; 
+    z-index: 1;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+

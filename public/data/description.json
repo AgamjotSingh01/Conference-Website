@@ -1,0 +1,26 @@
+[
+    {
+        "name" : "Dr. Apurba Das",
+        "description" : "Technology head, inventor, author, passionate speaker, computer vision expert",
+        "image" : "speakers/speaker.jpg",
+        "link" : "/"
+    },
+    {
+        "name" : "Dr. Ming Dong",
+        "description": "Optimization (computations, LP, IP, nonlinear, discrete, stochastic, multi-objective etc.), Operations Research, data mining, swarm intelligent algorithms and their applications, Modelling and Simulation Numerical Analysis, Differential Equations (ODE and PDE, all levels), Calculus (all levels), Linear Algebra, , Applied Math",
+        "image" : "speakers/s2.png",
+        "link" : "/"
+    },
+    {
+        "name" : "Professor Jiaxiang Zhang",
+        "description": "Optimization (computations, LP, IP, nonlinear, discrete, stochastic, multi-objective etc.), Operations Research, data mining, swarm intelligent algorithms and their applications, Modelling and Simulation Numerical Analysis, Differential Equations (ODE and PDE, all levels), Calculus (all levels), Linear Algebra, , Applied Math",
+        "image" : "speakers/s3.png",
+        "link" : "/"
+    },
+    {
+        "name" : "Mohamed Tawhid",
+        "description" : "Optimization (computations, LP, IP, nonlinear, discrete, stochastic, multi-objective etc.), Operations Research, data mining, swarm intelligent algorithms and their applications, Modelling and Simulation Numerical Analysis, Differential Equations (ODE and PDE, all levels), Calculus (all levels), Linear Algebra, , Applied Math",
+        "image" : "speakers/s1.png",
+        "link" : "/"
+    }
+]

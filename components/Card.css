@@ -1,0 +1,37 @@
+.card-container{
+    display: flex;
+    width: 70vw;
+    gap: 20px;
+}
+
+.person_info{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.person_name{
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.person_info{
+    font-size: 18px;
+}
+
+.profile{
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.person_image{
+    width: 190px;
+    height: 220px;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 900px) {
+    .card-container{
+        flex-direction: column;
+    }
+}
