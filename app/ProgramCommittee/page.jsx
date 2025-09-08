@@ -39,9 +39,9 @@ export default function ProgramCommittee({ props }) {
                             details="PRO VICE CHANCELLOR"
                         />
                         <Card1
-                            img='director.jpg'
-                            name='Prof. (Dr.) Rashmi Khorana Nagpal'
-                            details='Director (I/C)'
+                            img='dean.jpg'
+                            name='Dr. Jyotsna Singh'
+                            details='Director (I/C) & Associate Dean, STME'
                         />
                     </div>
 
@@ -58,7 +58,7 @@ export default function ProgramCommittee({ props }) {
                         <Card1
                             img='dean.jpg'
                             name='Dr Jyotsna Singh'
-                            details='Associate Dean Computer Engineering/ STME'
+                            details='Director (I/C) & Associate Dean, STME'
                         />
                     </div>
 

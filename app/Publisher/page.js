@@ -7,10 +7,7 @@ export default function Publisher() {
                 </div>
                 <div className="content">
                     <ul>
-                        <li className="space">Accepted papers will be included in the conference proceedings which can be published
-                            in Scopus listed series of Springer/ IEEE/IOP Science/CRC/Elsevier publisher.</li>
-                        <li className="space">Selected papers may be considered for publication in special issues of journals listed in
-                            SCIE/SCI/SCOPUS.</li>
+                        <li className="space">Accepted papers will be included in the EAI conference proceeding series that will be submitted to scoups indexing.</li>
                     </ul>
                 </div>
             </div>

@@ -1,5 +1,4 @@
 import React from "react";
-import "./hero.css";
 
 export default function Hero() {
     return (
@@ -26,8 +25,7 @@ export default function Hero() {
                     Review Process
                 </div>
                 <div className="content">
-                    All submitted papers will undergo a peer-review process by a committee of experts in the field.Accepted papers will be included in the conference proceedings and published in Springer book
-                    series. Authors will receive feedback and notification of paper acceptance by October 30,
+                    All submitted papers will undergo a peer-review process by a committee of experts in the field. Accepted papers will be included in the EAI conference proceeding series. Authors will receive feedback and notification of paper acceptance by October 30,
                     2025.
                 </div>
 
