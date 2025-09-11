@@ -25,7 +25,7 @@ export default function Hero() {
                     Review Process
                 </div>
                 <div className="content">
-                    All submitted papers will undergo a peer-review process by a committee of experts in the field. Accepted papers will be included in the EAI conference proceeding series. Authors will receive feedback and notification of paper acceptance by October 30,
+                    All submitted papers will undergo a peer-review process by a committee of experts in the field. Accepted papers will be included in the EAI conference proceeding series. Authors will receive feedback and notification of paper acceptance by November 15,
                     2025.
                 </div>
 
@@ -34,7 +34,14 @@ export default function Hero() {
                 </div>
                 <div className="content">
                     Authors must submit the final version of their papers, incorporating feedback received
-                    during the review process, by  November 5, 2025.
+                    during the review process, by  November 30, 2025.
+                </div>
+
+                <div className="title_paper">
+                    CMT Acknowledgment
+                </div>
+                <div className="content">
+                    "The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support."
                 </div>
             </div>
         </div>

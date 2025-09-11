@@ -1,3 +1,5 @@
+import Table from "./Table";
+
 export default function Hero() {
     return (
         <div className="container">
@@ -11,8 +13,8 @@ export default function Hero() {
                         <li className="space">All attendees, including authors and non-presenting participants, are required to register
                             for the conference
                         </li>
-                        <li className="space">Early-bird registration rates are available upto November 10, 2025, with regular
-                            registration open until November 20, 2025.</li>
+                        <li className="space">Early-bird registration rates are available upto December 20, 2025, with regular
+                            registration open until December 10, 2025.</li>
                     </ul>
                 </div>
 
@@ -22,6 +24,10 @@ export default function Hero() {
                 <div className="content">
                     Authors of accepted papers will have the opportunity to register at early-bird rates
                     starting November 10, 2025.
+                </div>
+
+                <div >
+                    <Table />
                 </div>
 
                 <div className="title_paper">

@@ -1,0 +1,37 @@
+.conference-tab {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conference-table {
+    border: 2px solid #CCCCCC;
+    border-radius: 15px;
+    width: 1100px;
+    height: 370px;
+    border-collapse: collapse;
+    table-layout: fixed; /* ensures equal partitioning */
+}
+
+.conference-th {
+    background-color: #CF0015;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+    border-collapse: collapse;
+}
+
+.conference-td {
+    text-align: center;
+    border: 2px solid #CCCCCC;
+    border-collapse: collapse;
+}
+
+/* Equal row height */
+.conference-table tr {
+    height: calc(370px / 6); /* 1 header + 5 rows = 6 partitions */
+}
