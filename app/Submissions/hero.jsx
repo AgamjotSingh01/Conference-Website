@@ -1,4 +1,6 @@
+"use client"
 import React from "react";
+import Button from "@/components/Button";
 
 export default function Hero() {
     return (
@@ -19,6 +21,7 @@ export default function Hero() {
                         <li className="space">Papers must be submitted in word/PDF format via the conference submission system.</li>
                         <li className="space">The language of the conference and all submissions is English.</li>
                     </ul>
+                    <Button />
                 </div>
 
                 <div className="title_paper">
