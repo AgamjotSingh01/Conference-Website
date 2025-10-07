@@ -116,7 +116,7 @@ const Button = () => {
         onMouseLeave={(e) => handleMouseLeave(e, false)}
       >
         <span style={buttonStyles.buttonIcon}>📄</span>
-        Acknowledgement Template
+        Manuscript Template
       </button>
     </div>
   );

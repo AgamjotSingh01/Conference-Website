@@ -76,3 +76,7 @@
     margin-top: 25px;
     margin-bottom: 30px;
 }
+
+html {
+  scrollbar-gutter: stable;
+}

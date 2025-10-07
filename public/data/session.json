@@ -1,0 +1,47 @@
+[
+  {
+    "sno": 1,
+    "sessionId": "8",
+    "topic": "Human Machine Interface/Graphics/Vision",
+    "chairperson": "Dr. Arvinder Kaur",
+    "coChairs": "Dr. Harpreet Kaur",
+    "profile": "https://scholar.google.com/citations?hl=en&user=DJNugR0AAAAJ",
+    "organization": [
+      "Chandigarh Engineneering College-CGC, Landran, Mohali",
+      "Department of Computer Science & Engineering, Punjabi University Patiala"
+    ],
+    "email": [
+      "er.arvinderdhillon@gmail.com",
+      "harpreet.ce@pbi.ac.in"
+    ]
+  },
+  {
+    "sno": 2,
+    "sessionId": "2",
+    "topic": "AI and Data-Driven Innovations for Smart and Sustainable Societal Applications",
+    "chairperson": "Dr. Akhil Gupta",
+    "coChairs": "",
+    "profile": "https://scholar.google.com/citations?user=09WaBZ8AAAAJ&hl=en&authuser=1",
+    "organization": [
+      "Symbiosis Institute of Technology, Nagpur",
+      "Symbiosis International (Deemed) University, Pune"
+    ],
+    "email": [
+      "akhil.gupta@sitnagpur.siu.edu.in"
+    ]
+  },
+  {
+    "sno": 3,
+    "sessionId": "3",
+    "topic": "Advancement in Machine Learning for Agriculture, Healthcare & Multimedia",
+    "chairperson": "Dr. Chirag Sharma",
+    "coChairs": "",
+    "profile": "https://scholar.google.com/citations?user=K6lA-jIAAAAJ&hl=ensc",
+    "organization": [
+      "Lovely Professional University"
+    ],
+    "email": [
+      "chirag.16717@lpu.co.in "
+    ]
+  }
+]

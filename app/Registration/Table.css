@@ -1,37 +1,63 @@
 .conference-tab {
     width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow-x: auto; /* allows horizontal scroll only if needed */
 }
 
 .conference-table {
     border: 2px solid #CCCCCC;
     border-radius: 15px;
-    width: 1100px;
-    height: 370px;
+    width: 100%; /* full responsive width */
+    max-width: 1100px; /* keep desktop layout neat */
     border-collapse: collapse;
-    table-layout: fixed; /* ensures equal partitioning */
+    table-layout: fixed; /* equal column widths */
 }
 
 .conference-th {
     background-color: #CF0015;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     border-radius: 15px 15px 0px 0px;
-    border-collapse: collapse;
 }
 
 .conference-td {
     text-align: center;
     border: 2px solid #CCCCCC;
-    border-collapse: collapse;
+    padding: 12px;
+    word-wrap: break-word;
 }
 
-/* Equal row height */
-.conference-table tr {
-    height: calc(370px / 6); /* 1 header + 5 rows = 6 partitions */
+/* 📱 Tablet view */
+@media (max-width: 768px) {
+    .conference-table {
+        font-size: 14px;
+    }
+
+    .conference-th {
+        font-size: 16px;
+    }
+
+    .conference-td {
+        padding: 8px;
+    }
+}
+
+/* 📱 Mobile view */
+@media (max-width: 480px) {
+    .conference-table {
+        font-size: 12px;
+    }
+
+    .conference-th {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .conference-td {
+        padding: 6px;
+    }
 }
