@@ -39,9 +39,9 @@ export default function ProgramCommittee({ props }) {
                             details="PRO VICE CHANCELLOR"
                         />
                         <Card1
-                            img='dean.jpg'
-                            name='Dr. Jyotsna Singh'
-                            details='Director (I/C) & Associate Dean, STME'
+                            img='provc3.png'
+                            name='Dr. Abhishek Ranjan'
+                            details='Pro Vice Chancellor'
                         />
                     </div>
 

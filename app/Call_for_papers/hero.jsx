@@ -1,5 +1,3 @@
-import commonButton from "@/components/CommonButton"
-
 
 export default function Hero() {
 

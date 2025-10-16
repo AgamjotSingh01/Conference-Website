@@ -18,7 +18,7 @@ export default function ConferenceTable() {
             <tr key={session.sno}>
               <td>{session.sno}</td>
               <td>
-                <strong>IICTDS.00{session.sessionId}</strong>
+                <strong>{session.sessionId}</strong>
               </td>
               <td>
                 <div className="session-details">

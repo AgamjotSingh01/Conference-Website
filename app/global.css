@@ -47,11 +47,8 @@
 .responsive-map {
     overflow: hidden;
     height: 500px;
-    /* Fixed height */
     width: 60vw;
-    /* Fixed width */
     margin: auto;
-    /* Centering the map */
     position: relative;
 }
 
@@ -61,7 +58,6 @@
     width: 100%;
     position: relative;
 }
-
 
 .sub-heading {
     color: #091B8F;
@@ -77,6 +73,92 @@
     margin-bottom: 30px;
 }
 
+/* Payment Link Styles */
+.payment-link-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.payment-link {
+    display: inline-block;
+    background-color: #CF0015;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-align: center;
+}
+
+.payment-link:hover {
+    background-color: #091B8F;
+    transform: translateY(-2px);
+}
+
+.payment-link:active {
+    transform: translateY(0);
+}
+
 html {
-  scrollbar-gutter: stable;
+    scrollbar-gutter: stable;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .body {
+        width: 85vw;
+    }
+
+    .title_paper {
+        font-size: 24px;
+    }
+
+    .content {
+        font-size: 16px;
+    }
+
+    .sub-heading {
+        font-size: 20px;
+    }
+
+    .payment-link {
+        font-size: 16px;
+        padding: 12px 24px;
+    }
+
+    .responsive-map {
+        width: 85vw;
+        height: 400px;
+    }
+}
+
+@media (max-width: 480px) {
+    .body {
+        width: 90vw;
+    }
+
+    .title_paper {
+        font-size: 20px;
+    }
+
+    .content {
+        font-size: 14px;
+    }
+
+    .sub-heading {
+        font-size: 18px;
+    }
+
+    .payment-link {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    .responsive-map {
+        width: 90vw;
+        height: 300px;
+    }
 }

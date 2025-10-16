@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Table from "./Table";
 
 export default function Hero() {
@@ -10,11 +11,14 @@ export default function Hero() {
 
                 <div className="content">
                     <ul>
-                        <li className="space">All attendees, including authors and non-presenting participants, are required to register
+                        <li className="space">
+                            All attendees, including authors and non-presenting participants, are required to register
                             for the conference
                         </li>
-                        <li className="space">Early-bird registration rates are available upto December 20, 2025, with regular
-                            registration open until December 10, 2025.</li>
+                        <li className="space">
+                            Early-bird registration rates are available upto December 20, 2025, with regular
+                            registration open until December 10, 2025.
+                        </li>
                     </ul>
                 </div>
 
@@ -26,8 +30,44 @@ export default function Hero() {
                     starting November 10, 2025.
                 </div>
 
-                <div >
+                <div>
                     <Table />
+                </div>
+
+                <div className="title_paper">
+                    Online Payment Link
+                </div>
+                <div className="content">
+                    <div className="payment-link-container">
+                        <Link 
+                            href="https://eazypay.icicibank.com/eazypayLink?P1=yRRjHPGx0eu4V0wObEsSbQ==" 
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="payment-link"
+                        >
+                            Click here to make payment
+                        </Link>
+                    </div>
+                </div>
+
+                <div className="sub-heading">
+                    Authors refer to the following points for registration:
+                </div>
+                <div className="content">
+                    <ul>
+                        <li className="space">
+                            Write mobile number in place of Student number.
+                        </li>
+                        <li className="space">
+                            Write event name (IICTDS2025) in place of Program Name.
+                        </li>
+                        <li className="space">
+                            Select from drop-down list of Purpose of payment (Conference Registration).
+                        </li>
+                        <li className="space">
+                            QR CODE option is available under UPI OPTION.
+                        </li>
+                    </ul>
                 </div>
 
                 <div className="title_paper">
@@ -38,8 +78,7 @@ export default function Hero() {
                     conference website and communication channels for any updates or changes to the submission
                     guidelines.
                 </div>
-
             </div>
         </div>
-    )
+    );
 }
