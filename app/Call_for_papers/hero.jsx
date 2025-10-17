@@ -1,4 +1,4 @@
-
+import CommonButton from "@/components/CommonButton"
 export default function Hero() {
 
     return (
@@ -20,9 +20,9 @@ export default function Hero() {
                         Tracks
                     </div>
                     <div>
-                        <commonButton variant="primary" size="medium" href="/SpecialSession" >
+                        <CommonButton variant="primary" size="medium" href="/SpecialSession" >
                             Special Tracks
-                        </commonButton>
+                        </CommonButton>
                     </div>
                     <div className="content">
                         <div className="sub-heading">

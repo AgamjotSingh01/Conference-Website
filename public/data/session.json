@@ -203,5 +203,37 @@
       "dr.purushottam.kmr@gmail.com",
       "rajshree.srivastava27@gmail.com"
     ]
+  },
+    {
+    "sno":14,
+    "sessionId":"IICTDS.014",
+    "trackId":"14",
+    "topic":"Emerging Trends in AI and ML-Based Healthcare Recommendation Systems",
+    "chairperson":"Ms. Suman Aggrawal",
+    "coChairs": "",
+    "profile":"",
+    "organization":[
+      "Noida Institute of Engineering and Technology (NIET, Greater Noida)"
+    ],
+    "email":[
+      "sumanaggrawal@gmail.com"
+    ]
+  },
+  {
+    "sno": 15,
+    "sessionId": "IICTDS.015",
+    "trackId": "15",
+    "topic": "Advances in Intelligent Computing: Emerging Techniques and Real-World Applications",
+    "chairperson": "Dr. Sumit Kumar",
+    "coChairs": "Dr. Garima Vijh",
+    "profile": "",
+    "organization": [
+      "Amity University Noida, Uttar Pradesh, India",
+      "G.L. Bajaj Institute of Technology and Management, Greater Noida , Uttar Pradesh"
+    ],
+    "email": [
+      "sumitkumarbsr19@gmail.com",
+      "garimavijh672@gmail.com"
+    ]
   }
 ]
