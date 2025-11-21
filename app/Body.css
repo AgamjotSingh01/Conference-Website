@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+.hero{
+    height: 50vh;
+    background-image: url("../public/assets/back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: white;
+    height: 100%;
+    gap: 15px;
+}
+
+.bold_title{
+    font-weight: 800;
+    font-size: 40px;
+    width: 60vw;
+    text-align: center;
+}
+
+.small_title{
+    font-size: 24px;
+}
+
+@media only screen and (max-width: 900px) {
+    .bold_title{
+        font-size: 30px;
+    }
+}
