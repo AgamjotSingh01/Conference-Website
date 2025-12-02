@@ -1,0 +1,227 @@
+/* ====== GLOBAL ====== */
+.event-page {
+  font-family: "Inter", sans-serif;
+  background: #f7f9fc;
+  color: #1d2d50;
+}
+
+/* ====== POSTER + ABOUT SIDE-BY-SIDE ====== */
+.poster-about-section {
+  display: flex;
+  gap: 40px;
+  width: 85%;
+  margin: 50px auto;
+  align-items: center;
+  padding: 40px;
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0px 8px 25px rgba(0,0,0,0.1);
+}
+
+.poster-left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.poster-side-image {
+  width: 100%;
+  max-width: 420px;
+  border-radius: 12px;
+  box-shadow: 0px 8px 30px rgba(0,0,0,0.2);
+}
+
+.about-right {
+  flex: 1.2;
+}
+
+.about-title {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 18px;
+  color: #0a1a37;
+}
+
+.about-text {
+  font-size: 17px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  color: #2c3e55;
+}
+
+/* ====== SECTION HEADINGS ====== */
+.section-heading {
+  font-size: 28px;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 30px;
+  margin-left: 88px;
+  color: #0a1a37;
+}
+
+.section-heading1 {
+  font-size: 28px;
+  font-weight: 700;
+  text-align: left;
+  margin-top: 30px;
+  margin-left: 92px;
+  color: #0a1a37;
+}
+
+/* --------------------------------------------------
+      EVENT INFORMATION — HORIZONTAL CARDS
+-------------------------------------------------- */
+.info-container-horizontal {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap; /* makes it responsive */
+}
+
+.info-card {
+  flex: 1;
+  min-width: 250px;
+  background: #ffffff;
+  padding: 20px 25px;
+  border-radius: 12px;
+  border: 1px solid #dce3ee;
+  box-shadow: 0px 5px 20px rgba(0,0,0,0.05);
+  transition: transform 0.35s cubic-bezier(0.68, -0.55, 0.265, 1.55), box-shadow 0.35s ease;
+
+  /* Pop-in entrance animation */
+  transform: scale(0.95) translateY(20px);
+  animation: cardPop 0.8s forwards cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+/* Staggering cards using nth-child for delay */
+.info-card:nth-child(1) { animation-delay: 0.1s; }
+.info-card:nth-child(2) { animation-delay: 0.2s; }
+.info-card:nth-child(3) { animation-delay: 0.3s; }
+.info-card:nth-child(4) { animation-delay: 0.4s; }
+
+.info-card h4 {
+  margin: 0 0 6px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #0a1a37;
+}
+
+.info-card p {
+  margin: 0;
+  font-size: 16px;
+  color: #2c3e55;
+  line-height: 1.6;
+}
+
+/* Keyframe for pop-in card animation with smoother bounce */
+@keyframes cardPop {
+  0% {
+    transform: scale(0.95) translateY(25px);
+  }
+  50% {
+    transform: scale(1.06) translateY(-8px);
+  }
+  70% {
+    transform: scale(0.98) translateY(4px);
+  }
+  85% {
+    transform: scale(1.02) translateY(-2px);
+  }
+  100% {
+    transform: scale(1) translateY(0);
+  }
+}
+
+/* Hover animation: pop-out effect with subtle bounce */
+.info-card:hover {
+  transform: scale(1.1) translateY(-12px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.18);
+}
+
+/* --------------------------------------------------
+      RULES SECTION
+-------------------------------------------------- */
+.rules-box {
+  width: 85%;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 25px 30px;
+  border-radius: 12px;
+  border: 1px solid #dce3ee;
+  box-shadow: 0px 5px 20px rgba(0,0,0,0.05);
+}
+
+.rules-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.rule-item {
+  background: #f1f4fa;
+  padding: 12px 18px;
+  margin: 10px 0;
+  border-left: 4px solid #3b4f7a;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #1d2d50;
+  line-height: 1.5;
+  transition: 0.2s ease;
+}
+
+.rule-item:hover {
+  background: #e8ecf5;
+  transform: translateX(5px);
+}
+
+/* ====== FOOTER ====== */
+.footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  color: #7b8aa3;
+}
+
+/* ====== RESPONSIVE ====== */
+@media (max-width: 900px) {
+  .poster-about-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .info-container-horizontal {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .rules-box {
+    width: 100%;
+  }
+
+}
+
+.register-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #2563eb; /* Blue */
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: all 0.25s ease;
+  margin-left: 12vw;
+  margin-top: 2vw;
+}
+
+.register-link:hover {
+  background-color: #1e40af; /* Darker blue */
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+}
+
+.register-link:active {
+  transform: scale(0.96);
+}
