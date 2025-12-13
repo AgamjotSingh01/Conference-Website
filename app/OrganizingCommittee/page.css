@@ -1,0 +1,104 @@
+/* ============================================================= */
+/* ---------------- BASIC TABLE DESIGN (DEFAULT) ---------------- */
+/* ============================================================= */
+
+/* Used for Hospitality + Student tables */
+.committee-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+.committee-table th {
+    background-color: #e3f0ff;
+    font-weight: 600;
+    padding: 10px 14px;
+    border: 1px solid #c7d5f3;
+    text-align: left;
+}
+
+.committee-table td {
+    padding: 10px 14px;
+    border: 1px solid #d4dceb;
+    background-color: #ffffff;
+}
+
+.committee-table tbody tr:nth-child(odd) {
+    background-color: #f7faff;
+}
+
+/* ============================================================= */
+/* ---------------- FACULTY TABLE (FULL WIDTH) ----------------- */
+/* ============================================================= */
+
+.faculty-table {
+    width: 100% !important;          /* ⭐ TRUE FULL WIDTH */
+    border-collapse: collapse;
+    border: 1px solid #c7d5f3;       /* same border style as student table */
+    background-color: white;
+    table-layout: fixed;             /* prevents overlap */
+    margin-bottom: 32px;
+}
+
+/* ---------------- FACULTY HEADER (BOLD) ---------------- */
+.faculty-table th {
+    background-color: #e3f0ff;       /* match student table */
+    font-weight: 700;                /* headings bold */
+    font-size: 17px;
+    padding: 12px 14px;
+    border: 1px solid #c7d5f3;
+    color: #0f1c36;
+    text-align: left;
+}
+
+/* ---------------- FACULTY CELLS (REGULAR TEXT) ---------- */
+.faculty-table td {
+    padding: 12px 14px;
+    border: 1px solid #d4dceb;
+    font-weight: 400;                /* ⭐ NOT BOLD */
+    color: #1f2937;
+    vertical-align: top;
+}
+
+/* Phone & Email should stay on one line */
+.faculty-table td div {
+    white-space: nowrap;
+}
+
+/* ============================================================= */
+/* ---------------- FACULTY COLUMN WIDTHS ---------------------- */
+/* ============================================================= */
+
+.faculty-table th:nth-child(1),
+.faculty-table td:nth-child(1) {
+    width: 36%;          /* Department */
+    white-space: normal;
+}
+
+.faculty-table th:nth-child(2),
+.faculty-table td:nth-child(2) {
+    width: 28%;          /* Name */
+    white-space: nowrap;
+    padding-right: 20px;
+}
+
+.faculty-table th:nth-child(3),
+.faculty-table td:nth-child(3) {
+    width: 36%;          /* Contact */
+    white-space: nowrap;
+}
+
+/* ============================================================= */
+/* ---------------- SECTION TITLE STYLE ------------------------- */
+/* ============================================================= */
+
+.table-section-title {
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 14px;
+    color: #0e1a33;
+    border-left: 5px solid #4c78dd;
+    padding-left: 12px;
+}
